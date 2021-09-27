@@ -1,0 +1,7 @@
+{
+    "host" : "management-tutorial.caszoxlr1haq.ap-northeast-2.rds.amazonaws.com",
+    "user" : "admin",
+    "password" : "sh1998404!",
+    "port" : "3306",
+    "database" : "management"
+}
