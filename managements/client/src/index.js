@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 
+const theme = createTheme({
+  typography: {
+    fontFamily: '"Noto Sans KR", serif',
+  }
+})
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <MuiThemeProvider theme ={theme}><App /></MuiThemeProvider>,
   document.getElementById('root')
 );
 
